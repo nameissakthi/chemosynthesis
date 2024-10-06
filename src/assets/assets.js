@@ -1,6 +1,6 @@
 import chemosynthesis from './chemosynthesis.jpg'
 import ocean_zone from './ocean-zone.jpg'
-import process from './chemosynthesis-process.jpg'
+import process from './chemosynthesisprocess.jpg'
 
 const assets = {
     chemosynthesis,
