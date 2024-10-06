@@ -1,0 +1,40 @@
+.aboutus{
+    h1{
+        text-align: center;
+    }
+    >div{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+        div{
+            text-align: center;
+            border: 2px solid black;
+            padding: 10px;
+        }
+        div:hover{
+            background-color: rgb(75, 68, 142);
+        }
+    }
+    p{
+        text-align: center;
+        font-size: smalle;
+    }
+}
+
+
+@media(max-width:1080px){
+    .aboutus{
+        >div{
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+}
+
+
+@media (max-width:800px) {
+    .aboutus{
+        >div{
+            grid-template-columns: 1fr;
+        }
+    }
+}

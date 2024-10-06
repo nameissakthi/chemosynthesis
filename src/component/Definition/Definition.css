@@ -1,0 +1,27 @@
+.definition{
+    height: 100vh;
+    padding: 4%;
+    h1{
+        font-size: 2.5rem;
+    }
+    .paragraph{
+        font-size: 1.5rem;
+        text-align: justify;
+        text-indent: 150px;
+    }
+    .image{
+        position: relative;
+        left: 50%;
+        translate: -50%;
+        margin-top: 30px;
+        width: 40%;
+        img{
+            width: 100%;
+        }
+        p{
+            width: 100%;
+            text-align: center;
+            font-size: 0.8rem;
+        }
+    }
+}
